@@ -106,7 +106,7 @@ Project Ideas: [
 
 We reduced our graph based workflow runtime from **4.97 seconds** (serial execution) to **2.29 seconds** (parallel execution). This is about **53.9%** reduction in the workflow response time.
 
-![Result](/media/result.png)
+![Result](/media/result-mod.png)
 
 ## Configuration
 
