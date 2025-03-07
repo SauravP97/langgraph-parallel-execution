@@ -116,13 +116,15 @@ def build_graph(serially=False):
    })
 
 start_time = time.time()
-response = build_graph(True)
+response = build_graph()
 end_time = time.time()
 response_time = end_time - start_time
 
 print(f"Execution completed in {response_time} seconds")
 
 print("=============================================")
-print(f"DSA Topics: {response['dsa_topics']}")
-print(f"System Design Topics: {response['system_design_topics']}")
-print(f"Project Ideas: {response['project_ideas']}")
+print(f"DSA Topics: \n {"\n".join(response['dsa_topics'])}")
+print("=============================================")
+print(f"\nSystem Design Topics: \n {"\n".join(response['system_design_topics'])}")
+print("=============================================")
+print(f"\nProject Ideas: \n {"\n".join(response['project_ideas'])}")
